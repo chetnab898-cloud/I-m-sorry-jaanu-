@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff0f5">
+<title>Please maaf krde, Sourabh 🎀</title>
+<style>
+:root{--pink:#f3a8c2;--rose:#c45c83;--dark:#74475a;--cream:#fffafd;--pale:#fff0f5}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:22px 14px;
+font-family:Georgia,'Times New Roman',serif;color:var(--dark);
+background:radial-gradient(circle at 12% 15%,#fff 0 3px,transparent 4px),
+radial-gradient(circle at 86% 80%,#fff 0 4px,transparent 5px),
+linear-gradient(145deg,#fff8fb,#ffe5ef 58%,#fff7fa);background-size:44px 44px,58px 58px,auto}
+.card{width:min(100%,490px);text-align:center;position:relative;padding:30px 22px 27px;
+background:rgba(255,250,252,.97);border:1px solid #f2c6d6;border-radius:28px;
+box-shadow:0 16px 50px #a94f7020}
+.bow{font-size:48px;line-height:1;margin-bottom:10px}
+.kicker{font:11px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#c77b98;margin:0 0 12px}
+h1{font-weight:normal;font-size:clamp(32px,8vw,43px);line-height:1.12;color:var(--rose);margin:0 0 12px}
+.subtitle{font-size:17px;line-height:1.55;margin:0 auto;max-width:360px}
+.sprinkle{color:#df91ad;letter-spacing:.28em;margin:19px 0}
+.note{background:#fff1f6;border:1px dashed #e9adc2;border-radius:18px;padding:19px 18px;
+text-align:left;font-size:16px;line-height:1.75;white-space:pre-line}
+.ask{font-size:22px;color:var(--rose);margin:22px 0 13px}
+.buttons{display:flex;justify-content:center;gap:11px;flex-wrap:wrap}
+button{border:0;border-radius:999px;padding:13px 19px;font:600 14px Arial,sans-serif;cursor:pointer;
+transition:transform .16s,box-shadow .16s}
+button:hover{transform:translateY(-2px);box-shadow:0 7px 18px #a94f7020}
+.yes{background:var(--pink);color:#fff}
+.no{background:#fff;color:var(--rose);border:1px solid #efc2d2}
+#reply{min-height:42px;margin:16px 0 0;color:var(--rose);font-size:16px;line-height:1.5}
+.foot{margin-top:16px;font:10px Arial,sans-serif;letter-spacing:.13em;color:#bd8296}
+.corner{position:absolute;color:#e4a0b8;font-size:21px}.left{left:17px;top:15px}.right{right:18px;top:16px}
+</style>
+</head>
+<body>
+<main class="card">
+  <span class="corner left">♡</span><span class="corner right">✧</span>
+  <div class="bow">🎀</div>
+  <p class="kicker">a tiny note for you</p>
+  <h1>Please maaf krde, Sourabh 🥺</h1>
+  <p class="subtitle">I know aaj ka din hum dono ke liye different hona chahiye tha. ♡</p>
+  <div class="sprinkle">♡　୨୧　♡</div>
+  <section class="note">Ik maine jo kia that was not good and sorry bolne se kuch nhi hoga and i respect and care a lot about your efforts tera gussa hona bnta hai but baat hi na krna to is not good na jaanu teko jitna gussa krna hai kr meko daat le mai chup chap sun lungi no ulte jawab this time but jaate thodi hai tune hi bola tha chodh kr jaana is not an option
+
+Please maaf krde 🥺🎀</section>
+  <p class="ask">Will you forgive me? ♡</p>
+  <div class="buttons">
+    <button class="yes" onclick="reply('yes')">Haan, maaf kiya ♡</button>
+    <button class="no" onclick="reply('later')">Abhi thoda time chahiye</button>
+  </div>
+  <p id="reply" role="status" aria-live="polite"></p>
+  <div class="foot">MADE WITH CARE · NO PRESSURE ♡</div>
+</main>
+<script>
+function reply(choice){
+ const el=document.getElementById('reply');
+ el.textContent=choice==='yes'
+ ? 'Yay… thank you. Ab jab dono ready honge, milke ek achha sa din plan karenge. ♡'
+ : 'Theek hai, jitna time chahiye le lo. Bas itna jaan lo ki I genuinely care. ♡';
+}
+</script>
+</body>
+</html>
